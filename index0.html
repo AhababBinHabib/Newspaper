@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="C:\Users\Windows-7\Desktop\potrika/index0.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Open+Sans&family=Oswald&family=Pacifico&family=Roboto&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <title>অগ্নিবীণা</title>
+    <style>
+        .main {
+            background: rgb(179, 15, 15);
+            height: 53px;
+            width: 100%;
+        }
+        
+        .container {
+            width: 1400px;
+        }
+        
+        .menu ul li {
+            list-style: none;
+            float: left;
+            padding: 15px 15px;
+            background: rgb(179, 15, 15);
+            position: relative;
+            text-align: right;
+        }
+        
+        .menu ul li a {
+            color: #fff;
+            display: block;
+            text-decoration: none;
+            font-size: 15px;
+        }
+        
+        .menu ul li:hover {
+            background: rgb(200, 17, 17);
+        }
+        
+        .menu ul li ul {
+            position: absolute;
+            left: -41px;
+            top: 100%;
+            visibility: hidden;
+        }
+        
+        .menu ul li:hover ul {
+            visibility: visible;
+            z-index: 100;
+        }
+        
+        .menu ul li ul li {
+            float: none;
+        }
+        
+        .container {
+            width: 1400px;
+        }
+        
+        .kutta {
+            width: 1200px;
+        }
+        
+        @keyframes ticker {
+            0% {
+                transform: translate3d(0, 0, 0);
+            }
+            100% {
+                transform: translate3d(-100%, 0, 0);
+            }
+        }
+        
+        .tcontainer {
+            width: 100%;
+            overflow: hidden;
+        }
+        
+        .ticker-wrap {
+            width: 100%;
+            padding-left: 100%;
+            background-color: rgb(238, 220, 206);
+            color: rgb(233, 29, 29);
+        }
+        
+        .ticker-move {
+            display: inline-block;
+            white-space: nowrap;
+            padding-right: 100%;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            animation-name: ticker;
+            animation-duration: 15s;
+        }
+        
+        .ticker-move:hover {
+            animation-play-state: paused;
+        }
+        
+        .ticker-item {
+            display: inline-block;
+            padding: 0 2rem;
+        }
+        
+        .footer {
+            width: 100%;
+            height: 300px;
+            background: rgb(4, 14, 41);
+        }
+        
+        .authority div {
+            color: #fff;
+            padding: 50px;
+            font-size: 15px;
+            float: left;
+        }
+        
+        .authority h1 {
+            float: left;
+            font-size: 25px;
+            color: #fff;
+            padding-top: 50px;
+        }
+        
+        .line {
+            width: 100%;
+            height: 5px;
+            background: rgb(245, 231, 39);
+        }
+        
+        .rajshahi {
+            width: 450px;
+            height: 300px;
+        }
+        
+        .faka {
+            width: 100%;
+            height: 30px;
+            background: #fff;
+        }
+        
+        .faka1 {
+            width: 100%;
+            height: 10px;
+            background: #fff;
+        }
+        
+        .faka2 {
+            width: 100%;
+            height: 5px;
+            background: #fff;
+        }
+        
+        .img-size {
+            width: 200px;
+            height: 130px;
+        }
+        
+        .box {
+            width: 100%;
+            height: 600px;
+            background: rgb(247, 245, 245);
+            overflow: scroll;
+        }
+        
+        .box h4 {
+            text-align: center;
+            color: #fff;
+            background: #000;
+        }
+        
+        .img-size1 {
+            width: 110px;
+            height: 60px;
+            margin-right: 2px;
+        }
+        
+        .box p {
+            font-weight: 10;
+            font-size: 15px;
+        }
+        
+        .extra {
+            background: rgb(4, 14, 41);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="container">
+            <div class="menu">
+                <ul>
+                    <li><a href="#">মূল পৃষ্ঠা</a></li>
+                    <li>
+                        <a href="#">রাজশাহী বিভাগ</a>
+                        <ul>
+                            <li><a href="#">রাজশাহী সদর</a></li>
+                            <li><a href="#">সিরাজগঞ্জ</a></li>
+                            <li><a href="#">পাবনা</a></li>
+                            <li><a href="#">জয়পুরহাট</a></li>
+                            <li><a href="#">চাঁপাইনবাবগঞ্জ</a></li>
+                            <li><a href="#">বগুড়া</a></li>
+                            <li><a href="#">নাটোর</a></li>
+                            <li><a href="#">নওগাঁ</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">বাংলাদেশ</a>
+                        <ul>
+                            <li><a href="#">ঢাকা বিভাগ</a></li>
+                            <li><a href="#">চট্টগ্রাম বিভাগ</a></li>
+                            <li><a href="#">খুলনা বিভাগ</a></li>
+                            <li><a href="#">রংপুর বিভাগ</a></li>
+                            <li><a href="#">বরিশাল বিভাগ</a></li>
+                            <li><a href="#">সিলেট বিভাগ</a></li>
+                            <li><a href="#">ময়মনসিংহ বিভাগ</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">জাতীয়</a></li>
+                    <li><a href="#">আন্তর্জাতিক</a></li>
+                    <li><a href="#"> রাজনীতি</a></li>
+                    <li><a href="#"> অর্থনীতি</a></li>
+                    <li><a href="#">শিক্ষা</a></li>
+                    <li><a href="#"> ক্রীড়া</a></li>
+                    <li><a href="#"> চিত্তবিনোদন</a></li>
+                    <li><a href="#">কৃষি</a></li>
+                    <li>
+                        <a href="#"> ইত্যাদি</a>
+                        <ul>
+                            <li><a href="#">জীবনধারা </a></li>
+                            <li><a href="#">অপরাধ দুর্নীতি</a></li>
+                            <li><a href="#">ধর্ম</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--/.Menu-->
+    <div class="tcontainer">
+        <div class="ticker-wrap">
+            <div class="ticker-move">
+                <div class="ticker-item">
+                    সংবাদ শিরোনাম : নওগাঁয় ৮ কোটি টাকা মূল্যের বেল মেটাল উদ্ধার
+                </div>
+                <div class="ticker-item">
+                    রাজশাহীতে সন্ধ্যা ৬টা থেকে ব্যবসা প্রতিষ্ঠান ও অনিদিষ্ট কালের জন্য মসজিতে জামাতে নামাজ বন্ধ
+                </div>
+                <div class="ticker-item">
+                    করোনা ছড়িয়েছে ১৫ জেলায়, বেশি আক্রান্ত ঢাকায়
+                </div>
+                <div class="ticker-item">
+                    বিএসএফের গুলিতে নিহত জয়নালের লাশ গ্রহণ করেনি বিজিবি
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="faka"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="col-md-8">
+                        <img class="rajshahi" src="C:\Users\Windows-7\Desktop/potrika/images/rajshahi.jpg" alt="rajshahi" />
+                        <div class="faka1"></div>
+                        <h4>
+                            রাজশাহীতে সন্ধ্যা ৬টা থেকে ব্যবসা প্রতিষ্ঠান ও অনিদিষ্ট কালের জন্য মসজিতে জামাতে নামাজ বন্ধ
+                        </h4>
+                        <div class="faka1"></div>
+                        <h6>
+                            মাসুদ রানা রাব্বানী: আজ সোমবার সন্ধ্যা ছয়টা থেকে রাজশাহী লকডাউন করা হচ্ছে। এরই মধ্যে প্রায় লকডাউন করে দেওয়া হয়েছে রাজশাহী শহরকে। একেবারে জরুরী প্রয়োজন ছাড়া শহরের বাইরে থেকে কোনো যানবাহন ঢুকতে দেওয়া হচ্ছে না শহরে। আবার শহর থেকেও বের হতে দেওয়া হচ্ছে না।
+                            জানিয়েছেন আরএমপি পুলিশের একাধিক সূত্র <a href="#">বিস্তারিত</a>
+                        </h6>
+                    </div>
+                    <div class="col-md-4">
+                        <div>
+                            <h6>
+                                পুঠিয়া পৌরসভার কর্মহীন নিম্ন আয়ের মানুষের ঘরে ঘরে খাদ্য সামগ্রী বিতরণ
+                            </h6>
+
+                            <img class="img-size" src="C:\Users\Windows-7\Desktop/potrika/images/khaddo.jpg" alt="khaddo" />
+                        </div>
+                        <div class="faka1"></div>
+                        <div>
+                            <h6>
+                                বাগমারায় করোনার প্রাদূর্ভাবে কর্মহীন অসহায়দের অনুদান দিলো আত-তিজারা
+                            </h6>
+                            <img class="img-size" src="C:\Users\Windows-7\Desktop/potrika/images/onudan.jpg" alt="onudan" />
+                        </div>
+                        <div class="faka1"></div>
+                        <div>
+                            <h6>লালপুরে বকুল এমপির খাবার সামগ্রী বিতরণ</h6>
+                            <img class="img-size" src="C:\Users\Windows-7\Desktop/potrika/images/mp.jpg" alt="mp" />
+                        </div>
+                        <div class="faka1"></div>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae euismod arcu. Nunc ut sapien ac ante venenatis facilisis. Nullam faucibus nulla vel sem efficitur, vel sagittis eros faucibus. Aliquam porta vel risus et pellentesque. Nulla tincidunt
+                        volutpat orci, quis vestibulum tellus interdum a. Etiam consequat purus neque, id sagittis urna convallis ut. Suspendisse tincidunt eu purus a placerat. Morbi sollicitudin eros non magna pretium mollis. Sed ultricies tellus ac
+                        tempor viverra. Maecenas porttitor velit eu tellus tristique hendrerit. Etiam aliquet arcu quis convallis tempus. Nunc eu eros ultricies, tempus felis id, egestas metus. Aenean elementum ipsum lectus. Aenean dignissim eros lorem,
+                        vitae pulvinar eros viverra nec. Ut interdum in turpis nec lobortis. Nulla lobortis varius ante quis porttitor. Quisque vel tristique sapien. In at quam et ipsum vulputate dignissim. Etiam lectus neque, accumsan vitae aliquet eu,
+                        pharetra vitae arcu. Aenean et dolor ligula. Etiam erat augue, commodo quis nisl eu, porttitor ultricies erat. Praesent efficitur eros rhoncus lorem tincidunt aliquet. Nullam at est dapibus, ullamcorper erat vitae, mollis orci.
+                        In ante ante, tincidunt eu finibus in, gravida eget massa. Maecenas elementum tempus viverra. Donec gravida, lorem non dignissim auctor, turpis risus varius lectus, ac ultricies orci eros id sapien. Proin euismod viverra lacus
+                        nec sodales. Quisque id justo ac erat vulputate maximus. Pellentesque sollicitudin lectus nec magna volutpat tincidunt. Ut ornare dolor vehicula mollis elementum. Suspendisse id elementum magna, non iaculis orci. Nulla nunc lacus,
+                        accumsan ac ante sed, semper condimentum felis. Duis vitae volutpat lectus, quis interdum nisi. Morbi vehicula erat quis nisi tristique vulputate. Donec vitae ex nisl. Curabitur sagittis at est vel pulvinar. Maecenas ligula felis,
+                        tempor et ligula vel, elementum rhoncus nisl. Integer condimentum elementum felis eget sodales. Nulla facilisi. Sed bibendum, turpis nec sodales mollis, nisl nulla eleifend nulla, vel elementum felis tellus at risus. Aliquam eu
+                        metus eu purus fringilla ullamcorper. Aenean pellentesque interdum risus. Suspendisse a accumsan justo. Vivamus commodo non velit ac elementum. Maecenas ultricies tristique malesuada. Etiam faucibus massa tellus, a bibendum dolor
+                        ultricies id. Mauris vehicula ipsum odio, a vulputate sapien malesuada eget. Pellentesque augue leo, porttitor id sodales id, ornare sed urna. Vivamus pellentesque quam eget elit luctus fermentum. Aliquam ornare ut dolor sit amet
+                        fermentum. Morbi vel nisi lectus. Nulla viverra urna nulla, in fermentum quam vulputate vel. Suspendisse purus ex, placerat a augue eget, convallis blandit ipsum. Nam mattis ipsum non arcu faucibus suscipit. Mauris est metus, vulputate
+                        sed gravida id, rutrum sit amet nibh. Aenean quis libero ut libero pretium sollicitudin ut eget velit. Nulla consectetur nisl at nisi ultricies sodales. Cras in ultrices massa, eget vulputate ligula. Ut id interdum risus. Mauris
+                        maximus eu lectus vel efficitur. Nullam ut mi quis tellus rutrum tristique.
+                    </div>
+                    <div class="col-md-4">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae euismod arcu. Nunc ut sapien ac ante venenatis facilisis. Nullam faucibus nulla vel sem efficitur, vel sagittis eros faucibus. Aliquam porta vel risus et pellentesque. Nulla tincidunt
+                        volutpat orci, quis vestibulum tellus interdum a. Etiam consequat purus neque, id sagittis urna convallis ut. Suspendisse tincidunt eu purus a placerat. Morbi sollicitudin eros non magna pretium mollis. Sed ultricies tellus ac
+                        tempor viverra. Maecenas porttitor velit eu tellus tristique hendrerit. Etiam aliquet arcu quis convallis tempus. Nunc eu eros ultricies, tempus felis id, egestas metus. Aenean elementum ipsum lectus. Aenean dignissim eros lorem,
+                        vitae pulvinar eros viverra nec. Ut interdum in turpis nec lobortis. Nulla lobortis varius ante quis porttitor. Quisque vel tristique sapien. In at quam et ipsum vulputate dignissim. Etiam lectus neque, accumsan vitae aliquet eu,
+                        pharetra vitae arcu. Aenean et dolor ligula. Etiam erat augue, commodo quis nisl eu, porttitor ultricies erat. Praesent efficitur eros rhoncus lorem tincidunt aliquet. Nullam at est dapibus, ullamcorper erat vitae, mollis orci.
+                        In ante ante, tincidunt eu finibus in, gravida eget massa. Maecenas elementum tempus viverra. Donec gravida, lorem non dignissim auctor, turpis risus varius lectus, ac ultricies orci eros id sapien. Proin euismod viverra lacus
+                        nec sodales. Quisque id justo ac erat vulputate maximus. Pellentesque sollicitudin lectus nec magna volutpat tincidunt. Ut ornare dolor vehicula mollis elementum. Suspendisse id elementum magna, non iaculis orci. Nulla nunc lacus,
+                        accumsan ac ante sed, semper condimentum felis. Duis vitae volutpat lectus, quis interdum nisi. Morbi vehicula erat quis nisi tristique vulputate. Donec vitae ex nisl. Curabitur sagittis at est vel pulvinar. Maecenas ligula felis,
+                        tempor et ligula vel, elementum rhoncus nisl. Integer condimentum elementum felis eget sodales. Nulla facilisi. Sed bibendum, turpis nec sodales mollis, nisl nulla eleifend nulla, vel elementum felis tellus at risus. Aliquam eu
+                        metus eu purus fringilla ullamcorper. Aenean pellentesque interdum risus. Suspendisse a accumsan justo. Vivamus commodo non velit ac elementum. Maecenas ultricies tristique malesuada. Etiam faucibus massa tellus, a bibendum dolor
+                        ultricies id. Mauris vehicula ipsum odio, a vulputate sapien malesuada eget. Pellentesque augue leo, porttitor id sodales id, ornare sed urna. Vivamus pellentesque quam eget elit luctus fermentum. Aliquam ornare ut dolor sit amet
+                        fermentum. Morbi vel nisi lectus. Nulla viverra urna nulla, in fermentum quam vulputate vel. Suspendisse purus ex, placerat a augue eget, convallis blandit ipsum. Nam mattis ipsum non arcu faucibus suscipit. Mauris est metus, vulputate
+                        sed gravida id, rutrum sit amet nibh. Aenean quis libero ut libero pretium sollicitudin ut eget velit. Nulla consectetur nisl at nisi ultricies sodales. Cras in ultrices massa, eget vulputate ligula. Ut id interdum risus. Mauris
+                        maximus eu lectus vel efficitur. Nullam ut mi quis tellus rutrum tristique.
+                    </div>
+                    <div class="col-md-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae euismod arcu. Nunc ut sapien ac ante venenatis facilisis. Nullam faucibus nulla vel sem efficitur, vel sagittis eros faucibus. Aliquam porta vel risus et pellentesque.
+                        Nulla tincidunt volutpat orci, quis vestibulum tellus interdum a. Etiam consequat purus neque, id sagittis urna convallis ut. Suspendisse tincidunt eu purus a placerat. Morbi sollicitudin eros non magna pretium mollis. Sed ultricies
+                        tellus ac tempor viverra. Maecenas porttitor velit eu tellus tristique hendrerit. Etiam aliquet arcu quis convallis tempus. Nunc eu eros ultricies, tempus felis id, egestas metus. Aenean elementum ipsum lectus. Aenean dignissim
+                        eros lorem, vitae pulvinar eros viverra nec. Ut interdum in turpis nec lobortis. Nulla lobortis varius ante quis porttitor. Quisque vel tristique sapien. In at quam et ipsum vulputate dignissim. Etiam lectus neque, accumsan vitae
+                        aliquet eu, pharetra vitae arcu. Aenean et dolor ligula. Etiam erat augue, commodo quis nisl eu, porttitor ultricies erat. Praesent efficitur eros rhoncus lorem tincidunt aliquet. Nullam at est dapibus, ullamcorper erat vitae,
+                        mollis orci. In ante ante, tincidunt eu finibus in, gravida eget massa. Maecenas elementum tempus viverra. Donec gravida, lorem non dignissim auctor, turpis risus varius lectus, ac ultricies orci eros id sapien. Proin euismod viverra
+                        lacus nec sodales. Quisque id justo ac erat vulputate maximus. Pellentesque sollicitudin lectus nec magna volutpat tincidunt. Ut ornare dolor vehicula mollis elementum. Suspendisse id elementum magna, non iaculis orci. Nulla nunc
+                        lacus, accumsan ac ante sed, semper condimentum felis. Duis vitae volutpat lectus, quis interdum nisi. Morbi vehicula erat quis nisi tristique vulputate. Donec vitae ex nisl. Curabitur sagittis at est vel pulvinar. Maecenas ligula
+                        felis, tempor et ligula vel, elementum rhoncus nisl. Integer condimentum elementum felis eget sodales. Nulla facilisi. Sed bibendum, turpis nec sodales mollis, nisl nulla eleifend nulla, vel elementum felis tellus at risus. Aliquam
+                        eu metus eu purus fringilla ullamcorper. Aenean pellentesque interdum risus. Suspendisse a accumsan justo. Vivamus commodo non velit ac elementum. Maecenas ultricies tristique malesuada. Etiam faucibus massa tellus, a bibendum
+                        dolor ultricies id. Mauris vehicula ipsum odio, a vulputate sapien malesuada eget. Pellentesque augue leo, porttitor id sodales id, ornare sed urna. Vivamus pellentesque quam eget elit luctus fermentum. Aliquam ornare ut dolor
+                        sit amet fermentum. Morbi vel nisi lectus. Nulla viverra urna nulla, in fermentum quam vulputate vel. Suspendisse purus ex, placerat a augue eget, convallis blandit ipsum. Nam mattis ipsum non arcu faucibus suscipit. Mauris est
+                        metus, vulputate sed gravida id, rutrum sit amet nibh. Aenean quis libero ut libero pretium sollicitudin ut eget velit. Nulla consectetur nisl at nisi ultricies sodales. Cras in ultrices massa, eget vulputate ligula. Ut id interdum
+                        risus. Mauris maximus eu lectus vel efficitur. Nullam ut mi quis tellus rutrum tristique.</div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="box">
+                    <h4>সর্বশেষ সংবাদ</h4>
+                    <div class="row">
+                        <div class="col-md-4"><img class="img-size1" src="C:\Users\Windows-7\Desktop/potrika/images/jubo.jpg" alt=""></div>
+                        <div class="col-md-8">
+                            <p>রাজশাহী জেলা যুবলীগের সাংগঠনিক সম্পাদক সেজানের উদ্যোগে জীবাণুনাশক স্প্রে করেন</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4"><img class="img-size1" src="C:\Users\Windows-7\Desktop/potrika/images/ias.jpg" alt=""></div>
+                        <div class="col-md-8">
+                            <p>মানুষের মাঝে ইয়্যাসের উপহার</p>
+                        </div>
+                    </div>
+                    <div class="faka2"></div>
+                    <div class="row">
+                        <div class="col-md-4"><img class="img-size1" src="C:\Users\Windows-7\Desktop/potrika/images/obai.jpg" alt=""></div>
+                        <div class="col-md-8">
+                            <p>ঘোষিত প্যাকেজ নিয়ে মির্জা ফখরুলের মন্তব্য মিথ্যাচারে ভরপুর</p>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+
+
+            <!--     Footerrrrrrrr       -->
+            <div class="faka"></div>
+            <div class="extra">
+                <div class="footer">
+
+                    <div class="container">
+                        <div class="authority">
+                            <div>Editor : Md. Ahsan Habib</div>
+
+                            <div>News Editor : Md. Selim Sanowar Polash</div>
+
+                            <div>Chief-Editor : Md. Ismail Hossain</div>
+
+                            <div>Publisher : Hasan Mahmud Sujon</div>
+
+                            <h1>All Rights Reserve @The Daily Agnibeena</h1>
+                        </div>
+                    </div>
+                </div>
+
+                <script src="app.js"></script>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
